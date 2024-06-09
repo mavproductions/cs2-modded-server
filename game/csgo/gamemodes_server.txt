@@ -344,8 +344,8 @@
 			"name"			"mg_Deathrun"
 			"maps"
 			{
-				"workshop/3164611860/deathrun_playground"		""
 				"workshop/3083325292/deathrun_iceworld_cs2"		""
+				"workshop/3164611860/deathrun_playground"		""
 			}
 		}
 		"mg_Scoutzknivez"
@@ -353,8 +353,8 @@
 			"name"			"mg_Scoutzknivez"
 			"maps"
 			{
-				"workshop/3073929825/scoutzknivez_pure_cs2"		""
 				"workshop/3070553020/ar_dizzy"		""
+				"workshop/3073929825/scoutzknivez_pure_cs2"		""
 			}
 		}
 		"mg_HideNSeek"
@@ -362,11 +362,11 @@
 			"name"			"mg_HideNSeek"
 			"maps"
 			{
+				"workshop/3071094345/hs_lake"		""
 				"workshop/3097563690/infernohideandseek"		""
+				"workshop/3070541369/minus_denhet"		""
 				"workshop/3074479691/seek_town_bs"		""
 				"workshop/3070951079/winterday_bs"		""
-				"workshop/3070541369/minus_denhet"		""
-				"workshop/3071094345/hs_lake"		""
 			}
 		}
 		"mg_Soccer"
@@ -384,11 +384,11 @@
 			"maps"
 			{
 				"workshop/3142070597/awp_bhop_rocket"		""
-				"workshop/3109027085/awp_minecraft"			""
-				"workshop/3088944650/awp_lego_2_winter"		""
 				"workshop/3081154235/awp_creek"				""
 				"workshop/3166593524/awp_japan_neon_cs"		""
-			}
+				"workshop/3088944650/awp_lego_2_winter"		""
+				"workshop/3109027085/awp_minecraft"			""
+				}
 		}
 		"mg_AimMap"
 		{
@@ -396,16 +396,16 @@
 			"maps"
 			{
 				"workshop/3140763900/1v1_hospital"		""
-				"workshop/3222291463/aim_map_classic"	""
-				"workshop/3070260370/aim_map_s2r"		""
-				"workshop/3146122036/freebet_aim_map"	""
-				"workshop/3171874934/aim_aspire"		""
-				"workshop/3070923343/fy_pool_day"		""
-				"workshop/3157627939/aim_valerastan"	""
+				"workshop/3090340064/aim_ancient"		""
 				"workshop/3177201515/aim_anubis"		""
 				"workshop/3165438553/aim_deaglepark"	""
-				"workshop/3090340064/aim_ancient"		""
+				"workshop/3171874934/aim_inspire"		""
+				"workshop/3222291463/aim_map_classic"	""
+				"workshop/3070260370/aim_map_s2r"		""
 				"workshop/3163827658/aim_refrag"		""
+				"workshop/3157627939/aim_valerastan"	""
+				"workshop/3146122036/freebet_aim_map"	""
+				"workshop/3070923343/fy_pool_day"		""
 			}
 		}
 		"mg_DM-MultiCFG"
@@ -464,10 +464,10 @@
 			{
 				"de_ancient"		""
 				"de_anubis"			""
-				"de_dust2"		""
+				"de_dust2"			""
 				"de_inferno"		""
-				"de_mirage"		""
-				"de_nuke"		""
+				"de_mirage"			""
+				"de_nuke"			""
 				"de_overpass"		""
 				"de_vertigo"		""
 			}
