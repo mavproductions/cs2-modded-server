@@ -13,7 +13,7 @@ Mod | Version | Developer | Why
 [Discord Utilities](https://github.com/NockyCZ/CS2-Discord-Utilities) | `2.0.5` | [NockyCZ](https://github.com/NockyCZ/) | (**Enabled by default.**) 2-Way chat relay, discord role/game-server perm mgmt, event monitoring, and player reporting. [How?](#using-cs2-discordutilities)
 [Executes](https://github.com/zwolof/cs2-executes) | `1.0.4` | [zwolof](https://github.com/zwolof/) & [B3none](https://github.com/B3none/) | Implementation of executes. Based on the version for CS:GO by Splewis.
 [ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | [Kus](https://github.com/kus/) | Executes a command after server event (i.e. OnMapStart) or a delay.
-[GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.5` | [nickj609](https://github.com/nickj609/) | Simplified administration and voting management for custom modes and map switching/extending.
+[GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.4` | [nickj609](https://github.com/nickj609/) | Simplified administration and voting management for custom modes and map switching/extending.
 [GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.1.1` | [ssypchenko](https://github.com/ssypchenko/) | GunGame mode
 [K4-Arenas](https://github.com/K4ryuu/K4-Arenas) | `1.4.4` | [K4ryuuu](https://github.com/K4ryuu/) | A plugin that allows players to fight 1v1 in ranked arenas.
 [Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
