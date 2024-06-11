@@ -233,6 +233,7 @@
 			"maps"
 			{
 				"workshop/3242420753/am_anubis_p"		""
+				"workshop/3262582924/am_duels_mirage"	""
 				"workshop/3179186642/am_garden"			""
 				"workshop/3197575080/am_minecraft_pierdolnik"		""
 				"workshop/3070253400/aim_redline_fp"	""
