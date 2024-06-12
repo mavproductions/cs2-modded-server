@@ -291,6 +291,7 @@
 				"workshop/3255589335/surf_aquaflow"		""
 				"workshop/3070321829/surf_beginner"		""
 				"workshop/3098972556/surf_benevolent"	""
+				"workshop/3133346713/surf_boreas"		""
 				"workshop/3080544577/surf_deathstar"		""
 				"workshop/3255525511/surf_inui"			""
 				"workshop/3076153623/surf_kitsune"		""
