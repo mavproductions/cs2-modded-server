@@ -81,7 +81,7 @@ Getting up and running:
 Mod | Version | Developer | Why
 --- | --- | --- | ---
 [Metamod:Source](http://www.sourcemm.net/downloads.php?branch=master) | `2.0.0-1293` | Community-Project | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `239` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
+[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `242` | [roflmuffin](https://github.com/roflmuffin/) | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
 [CleanerCS2](https://github.com/Source2ZE/CleanerCS2) | `v1.0.3` | [Poggicek](https://github.com/Poggicek) | Allows you to filter out console prints with regular expressions 
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.1 SDK Update` | [Poggicek](https://github.com/Poggicek) | Fixes players not showing up in the server browser 
 [AnnouncementBroadcaster](https://github.com/lengran/CS2AnnouncementBroadcaster) | `0.3.1` | [Lengrann](https://github.com/lengran) | Conditional messages, OnCommand, OnPlayerConnect, OnRoundStart, and TimerMsgs.
