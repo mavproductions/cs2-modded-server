@@ -99,7 +99,7 @@ Mod | Version | Developer | Why
 [Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.11` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
 MultiModGameStateMgr | `0.0.1` | [audiomaster99](https://github.com/audiomaster99) | Assisting with game states when the server is empty, and gains a player. Be sure to unload with conflicting plugins (ex. Retakes), and reload plugin switching away from conflicting plugins.
-[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.37` | [Lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
+[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.38` | [Lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
 [Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | [Kus](https://github.com/kus/) | Remove weapons from the map as `mp_weapons_allow_map_placed 0` does not work.
 [Retakes](https://github.com/B3none/cs2-retakes) | `2.0.5` | [B3none](https://github.com/B3none/) | Implementation of retakes. Based on the version for CS:GO by Splewis.
 [Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator) | `2.3.10` | [yonilerner](https://github.com/yonilerner/) | Advanced weapon allocation for retakes
@@ -558,6 +558,12 @@ Because the way the server is setup with several mods it's not possible. You can
 Admins are managed by [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) using the [Admin Framework](https://docs.cssharp.dev/admin-framework/defining-admins/). You define admins and their flags and most plugins now utilise this framework.
 
 To see an example of my admins you can look at this file [/custom_files_example/addons/counterstrikesharp/configs/admins.json](https://github.com/mavproductions/cs2-modded-server/blob/master/custom_files_example/addons/counterstrikesharp/configs/admins.json). To set your admins on your own server use this file as a reference and use the [custom files](#custom-files) system to have your own version.
+
+Ensure your `.json` files are valid JSON by using [this website](https://jsonformatter.curiousconcept.com/).
+
+If you have added the admins correctly you should see `Loaded admin data with X admins.` in the server logs when it starts.
+
+If you modify the server whilst the server is on you can run `css_admins_reload` to reload the admins and see the admins with `css_admins_list`.
 
 ### Use number keys to operate menu instead of typing !1 in chat
 
