@@ -16,7 +16,7 @@ Mod | Version | Developer | Why
 [GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.43` | [nickj609](https://github.com/nickj609/) | Simplified administration and voting management for custom modes and map switching/extending.
 [GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.1.1` | [ssypchenko](https://github.com/ssypchenko/) | GunGame mode
 [K4-Arenas](https://github.com/K4ryuu/K4-Arenas) | `1.4.4` | [K4ryuuu](https://github.com/K4ryuu/) | A plugin that allows players to fight 1v1 in ranked arenas.
-[Map Configs Prefix](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.5` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
+[Map Configs](https://github.com/oqyh/cs2-Map-Configs-Prefix/)| `1.0.6` | [oqyh](https://github.com/oqyh/) | Allows you to quick and easily create unique configuration files for each map on your server.
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.7.11` | [shobhit-pathak](https://github.com/shobhit-pathak/) | MatchZy is a plugin for running and managing practice/pugs/scrims/matches with easy configuration!
 MultiModGameStateMgr | `0.0.1` | [audiomaster99](https://github.com/audiomaster99) | Assisting with game states when the server is empty, and gains a player. Be sure to unload with conflicting plugins (ex. Retakes), and reload plugin switching away from conflicting plugins.
 [OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac) | `0.1.38` | [Lengran](https://github.com/lengran/) | Similar to Yprac and Refrag prefire modes.
