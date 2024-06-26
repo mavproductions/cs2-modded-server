@@ -80,7 +80,7 @@ Be aware that setting a collectionID forces the server to batch download all the
 
 ### Workshop Maps
 Hosting Workshop maps requires the [API Key](http://steamcommunity.com/dev/apikey). To switch to a workshop map, run `host_workshop_map <workshopID>`.       
-Ex. `host_workshop_map 3121217565` via RCON would switch you to de_thera by FMPONE.
+Ex. `host_workshop_map 3171874934` via RCON would switch you to aim_inspire by MavProductions.
 
 ### Server Browser Recognition
 Add your [GSLT](https://steamcommunity.com/dev/managegameservers) for your server to appear on the server browser master list. [ServerListPlayerFix](https://github.com/Source2ZE/ServerListPlayersFix) is also recommended currently, as this will make the server player list available.
