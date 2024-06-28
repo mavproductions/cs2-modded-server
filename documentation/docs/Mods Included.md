@@ -5,6 +5,7 @@ Mod | Version | Developer | Why
 [CleanerCS2](https://github.com/Source2ZE/CleanerCS2) | `v1.0.3` | [Poggicek](https://github.com/Poggicek) | Allows you to filter out console prints with regular expressions 
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.1 SDK Update` | [Poggicek](https://github.com/Poggicek) | Fixes players not showing up in the server browser 
 [AnnouncementBroadcaster](https://github.com/lengran/CS2AnnouncementBroadcaster) | `0.3.1` | [Lengrann](https://github.com/lengran) | Conditional messages, OnCommand, OnPlayerConnect, OnRoundStart, and TimerMsgs.
+[AntiRush](https://github.com/oscar-wos/AntiRush) | `1.0.0` | [oscar-wos](https://github.com/oscar-wos) | Customize your own boundaries on maps to teleport, warn, hurt, and kill players/bots trying to cross contraint areas.
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon) | `1.2.0` | [LordFetznschaedl](https://github.com/LordFetznschaedl/) | This is a rudimentary implementation of a RCON plugin using CounterStrikeSharp as RCON does not work whilst connected to the server
 [CSTV-Discord](https://github.com/K4ryuu/CS2-GOTV-Discord) | `1.2.7` | [K4ryuu](https://github.com/K4ryuu/) | Discord Webhook message broadcasts with full-match or single round demo uploads to Mega Upload or direct to Discord.
 [CustomRounds](https://github.com/schwarper/cs2-customrounds) | `0.0.9` | [schwarper](https://github.com/schwarper/) | Custom rounds for weapon practice on aim/awp/etc maps when default weapons don't cut it
@@ -25,6 +26,7 @@ MultiModGameStateMgr | `0.0.1` | [audiomaster99](https://github.com/audiomaster9
 [Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator) | `2.3.10` | [yonilerner](https://github.com/yonilerner/) | Advanced weapon allocation for retakes
 [BombAnnouncer](https://github.com/audiomaster99/CS2BombsiteAnnouncer) | `0.0.6` | [audiomaster99](https://github.com/audiomaster99/) | Graphical Bombsite Announcer using Center HUD image capability.
 [Instadefuse](https://github.com/B3none/cs2-instadefuse) | `1.4.3` | [B3none](https://github.com/B3none/) | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. 
+[Retakes-Zones](https://github.com/oscar-wos/Retakes-Zones) | `1.0.2` | [oscar-wos](https://github.com/oscar-wos) | Invisible walls that bounce players back into the right direction of the Retake objectives.
 [RockTheVote](https://github.com/abnerfs/cs2-rockthevote) | `1.8.5-custombuild` | [abnerfs](https://github.com/abnerfs) | General purpose CS2 map voting plugin.
 [SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/) | `v0.1.2` | [connercsbn](https://github.com/connercsbn/) | Adds basic administrator functions
 [SharpTimer](https://github.com/DEAFPS/SharpTimer/) | `0.2.6` | [DEAFPS](https://github.com/DEAFPS/) | All-in-One BHop/KZ/Surf/etc timer, movement-unlocker, ranking, and stats plugin
