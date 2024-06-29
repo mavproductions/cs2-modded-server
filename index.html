@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="CS2-Modded-Server is a concept idea for server admins to host a framework of many popular community-made plugins in one compact instance." name="description"/>
+<link href="https://mavproductions.github.io/cs2-modded-server/" rel="canonical"/>
+<link href="Mods%20Included/" rel="next"/>
+<link href="assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.0, mkdocs-material-9.5.27" name="generator"/>
+<title>CS2-Modded-Server Documentation</title>
+<link href="assets/stylesheets/main.6543a935.min.css" rel="stylesheet"/>
+<link href="assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 13h-2V7h2m0 10h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2Z"/></svg>');}</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<meta content="Home" name="title"/><meta content="website" property="og:type"/><meta content="https://mavproductions.github.io/cs2-modded-server/" property="og:url"/><meta content="Home" property="og:title"/><meta content="CS2-Modded-Server is a concept idea for server admins to host a framework of many popular community-made plugins in one compact instance." property="og:description"/><meta content="https://github.com/mavproductions/cs2-modded-server/blob/b86a34e2ce4fbf83aed8e032fde123b7b97a74b5/documentation/seo-metaphoto.jpg?raw=true&amp;sanitize=true" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://mavproductions.github.io/cs2-modded-server/" property="twitter:url"/><meta content="Home" property="twitter:title"/><meta content="CS2-Modded-Server is a concept idea for server admins to host a framework of many popular community-made plugins in one compact instance." property="twitter:description"/><meta content="https://github.com/mavproductions/cs2-modded-server/blob/b86a34e2ce4fbf83aed8e032fde123b7b97a74b5/documentation/seo-metaphoto.jpg?raw=true&amp;sanitize=true" property="twitter:image"/></head>
+<body data-md-color-accent="green" data-md-color-primary="green" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#welcome-to-cs2-modded-server">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="CS2-Modded-Server Documentation" class="md-header__button md-logo" data-md-component="logo" href="." title="CS2-Modded-Server Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.71 3.235a.022.022 0 0 1-.022-.022c.002-.081.004-.37.005-.424 0-.129-.143-.183-.212-.083l-.229.333a.024.024 0 0 1-.02.01h-6.55a.047.047 0 0 1-.048-.046l-.013-.177a.048.048 0 0 1 .056-.048l.335.032a.059.059 0 0 0 .063-.045l.244-.989a.048.048 0 0 0-.03-.054l-.227-.085a.043.043 0 0 1-.026-.03c-.041-.171-.377-1.323-1.993-1.58-.787-.125-1.302.21-1.577.478a1.594 1.594 0 0 0-.302.41l-.097.212a2.309 2.309 0 0 0-.046.234l.051.982a.109.109 0 0 0 .043.085l.354.153-.196.325a.055.055 0 0 1-.053.04s-.417.01-.622.02c-.386.015-1.245.485-1.878 1.838l-.724 1.55a.074.074 0 0 1-.068.04l-.578.001c-.035 0-.073.028-.088.06L6.364 9a.11.11 0 0 0 .017.108l.627.392a.059.059 0 0 1 .02.058l-.328.967a.192.192 0 0 1-.023.062l-.435.382a.106.106 0 0 0-.035.06l-.598 1.53a.063.063 0 0 1-.06.045l-.336.002a.163.163 0 0 0-.162.149l-.201 2.288a1.72 1.72 0 0 1-.016.121l-.158.908a.128.128 0 0 1-.034.055l-.558.427a4.81 4.81 0 0 0-.767 1.001l-1.86 3.924a.761.761 0 0 0-.078.322l.132.235c.002.084-.032.456-.07.53l-.624 1.09a.099.099 0 0 0-.003.085l.03.07.094.187 1.891.002c.118.011.247-.14.251-.3l.103-1.297-.027-.195 3.606-4.232c.095-.114.222-.317.286-.45l1.719-3.79a.171.171 0 0 1 .1-.088l.109-.035a.17.17 0 0 1 .183.053c.15.181.504.781.676 1.032.143.208.85 1.23 1.158 1.567.086.093.349.198.466.27a.083.083 0 0 1 .03.112l-1.03 1.808-.455 2.136a.954.954 0 0 0-.036.152l-.412 1.483c.003.188-.14.286-.153.507l-.15 1.084a.058.058 0 0 0 .059.061l2.544.014c.095 0 .19-.004.286-.006a1.105 1.105 0 0 0 .075-.007c.124-.016.563-.076.75-.15a.574.574 0 0 0 .227-.13c.185-.194.2-.278.203-.398a.266.266 0 0 0-.028-.105.123.123 0 0 0-.06-.047l-1.18-.356a.37.37 0 0 1-.19-.134l-.317-.47a.086.086 0 0 1 .018-.097l.618-.609a.202.202 0 0 0 .048-.072l1.904-4.488c.089-.285.059-.605 0-.944-.044-.25-.686-1.326-.854-1.624a941.79 941.79 0 0 0-1.286-2.251c-.079-.138-.19-.133-.228-.276l-.073-1.118a.04.04 0 0 1 .036-.05l.33-.028a.093.093 0 0 0 .075-.048l1.147-2.155a.096.096 0 0 0-.002-.094l-.235-.29a.087.087 0 0 1-.001-.088l.352-.38a.054.054 0 0 1 .073-.02l.934.526a.382.382 0 0 0 .186.05c.26-.001.686-.154.908-.29a.383.383 0 0 0 .139-.148l.458-1.07c.006-.014.027-.012.03.003l.127.595a.064.064 0 0 0 .079.05l1.35-.3a.066.066 0 0 0 .05-.078l-.319-1.344a.072.072 0 0 1 .01-.054l.13-.203a.281.281 0 0 0 .037-.082l.159-.725a.04.04 0 0 1 .04-.032l3.732.005a.092.092 0 0 0 .093-.093v-.634a.022.022 0 0 1 .022-.021h1.439a.046.046 0 0 0 .046-.047V3.28a.046.046 0 0 0-.046-.047h-1.44z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            CS2-Modded-Server Documentation
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="green" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="green" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1h4m6-10h3v2h-3v-2M1 11h3v2H1v-2M13 1v3h-2V1h2M4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93 4.92 3.5m12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12-1.42-1.42Z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="green" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="green" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z"></path></svg>
+</label>
+</form>
+<script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mavproductions/cs2-modded-server" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    mavproductions/cs2-modded-server
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="CS2-Modded-Server Documentation" class="md-nav__button md-logo" data-md-component="logo" href="." title="CS2-Modded-Server Documentation">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.71 3.235a.022.022 0 0 1-.022-.022c.002-.081.004-.37.005-.424 0-.129-.143-.183-.212-.083l-.229.333a.024.024 0 0 1-.02.01h-6.55a.047.047 0 0 1-.048-.046l-.013-.177a.048.048 0 0 1 .056-.048l.335.032a.059.059 0 0 0 .063-.045l.244-.989a.048.048 0 0 0-.03-.054l-.227-.085a.043.043 0 0 1-.026-.03c-.041-.171-.377-1.323-1.993-1.58-.787-.125-1.302.21-1.577.478a1.594 1.594 0 0 0-.302.41l-.097.212a2.309 2.309 0 0 0-.046.234l.051.982a.109.109 0 0 0 .043.085l.354.153-.196.325a.055.055 0 0 1-.053.04s-.417.01-.622.02c-.386.015-1.245.485-1.878 1.838l-.724 1.55a.074.074 0 0 1-.068.04l-.578.001c-.035 0-.073.028-.088.06L6.364 9a.11.11 0 0 0 .017.108l.627.392a.059.059 0 0 1 .02.058l-.328.967a.192.192 0 0 1-.023.062l-.435.382a.106.106 0 0 0-.035.06l-.598 1.53a.063.063 0 0 1-.06.045l-.336.002a.163.163 0 0 0-.162.149l-.201 2.288a1.72 1.72 0 0 1-.016.121l-.158.908a.128.128 0 0 1-.034.055l-.558.427a4.81 4.81 0 0 0-.767 1.001l-1.86 3.924a.761.761 0 0 0-.078.322l.132.235c.002.084-.032.456-.07.53l-.624 1.09a.099.099 0 0 0-.003.085l.03.07.094.187 1.891.002c.118.011.247-.14.251-.3l.103-1.297-.027-.195 3.606-4.232c.095-.114.222-.317.286-.45l1.719-3.79a.171.171 0 0 1 .1-.088l.109-.035a.17.17 0 0 1 .183.053c.15.181.504.781.676 1.032.143.208.85 1.23 1.158 1.567.086.093.349.198.466.27a.083.083 0 0 1 .03.112l-1.03 1.808-.455 2.136a.954.954 0 0 0-.036.152l-.412 1.483c.003.188-.14.286-.153.507l-.15 1.084a.058.058 0 0 0 .059.061l2.544.014c.095 0 .19-.004.286-.006a1.105 1.105 0 0 0 .075-.007c.124-.016.563-.076.75-.15a.574.574 0 0 0 .227-.13c.185-.194.2-.278.203-.398a.266.266 0 0 0-.028-.105.123.123 0 0 0-.06-.047l-1.18-.356a.37.37 0 0 1-.19-.134l-.317-.47a.086.086 0 0 1 .018-.097l.618-.609a.202.202 0 0 0 .048-.072l1.904-4.488c.089-.285.059-.605 0-.944-.044-.25-.686-1.326-.854-1.624a941.79 941.79 0 0 0-1.286-2.251c-.079-.138-.19-.133-.228-.276l-.073-1.118a.04.04 0 0 1 .036-.05l.33-.028a.093.093 0 0 0 .075-.048l1.147-2.155a.096.096 0 0 0-.002-.094l-.235-.29a.087.087 0 0 1-.001-.088l.352-.38a.054.054 0 0 1 .073-.02l.934.526a.382.382 0 0 0 .186.05c.26-.001.686-.154.908-.29a.383.383 0 0 0 .139-.148l.458-1.07c.006-.014.027-.012.03.003l.127.595a.064.064 0 0 0 .079.05l1.35-.3a.066.066 0 0 0 .05-.078l-.319-1.344a.072.072 0 0 1 .01-.054l.13-.203a.281.281 0 0 0 .037-.082l.159-.725a.04.04 0 0 1 .04-.032l3.732.005a.092.092 0 0 0 .093-.093v-.634a.022.022 0 0 1 .022-.021h1.439a.046.046 0 0 0 .046-.047V3.28a.046.046 0 0 0-.046-.047h-1.44z"></path></svg>
+</a>
+    CS2-Modded-Server Documentation
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mavproductions/cs2-modded-server" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    mavproductions/cs2-modded-server
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href=".">
+<span class="md-ellipsis">
+    Home
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Mods%20Included/">
+<span class="md-ellipsis">
+    Mods Included
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+<span class="md-ellipsis">
+    Setup
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            Setup
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="Basic%20Install%20Guide/">
+<span class="md-ellipsis">
+    Basic Install Guide
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Basic Install Guide/#env-vars">
+<span class="md-ellipsis">
+    Environment Variables
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="MySQL%20Setup/">
+<span class="md-ellipsis">
+    MySQL Setup
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Gamemodes%20%26%20Maplists/">
+<span class="md-ellipsis">
+    Gamemodes &amp; Maplists
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Server%20Routines/">
+<span class="md-ellipsis">
+    Server Routines
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+<span class="md-ellipsis">
+    Discord Integration
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Discord Integration
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="Create%20a%20DiscordBot/">
+<span class="md-ellipsis">
+    Create a DiscordBot
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Configuring%20DiscordUtilities/">
+<span class="md-ellipsis">
+    Configuring DiscordUtilities
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Custom%20Slash%20Commands/">
+<span class="md-ellipsis">
+    Custom Slash Commands
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="CSTV%20Webhook/">
+<span class="md-ellipsis">
+    CSTV Webhook
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+<span class="md-ellipsis">
+    Server Customization
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            Server Customization
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="Server%20Basics/">
+<span class="md-ellipsis">
+    Server Basics
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Create%20your%20Own%20Mapgroup/">
+<span class="md-ellipsis">
+    Create your own Mapgroup
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Testing%20Plugins/">
+<span class="md-ellipsis">
+    Testing Plugins
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+<span class="md-ellipsis">
+    Server Usage
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            Server Usage
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="Player%20Server%20Guide/">
+<span class="md-ellipsis">
+    Player Server Guide
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Quick%20Connects/">
+<span class="md-ellipsis">
+    Server Quick Connects
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden="">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="welcome-to-cs2-modded-server"><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 6v2H3V6h18M3 18h9v-2H3v2m0-5h18v-2H3v2Z"></path></svg></span> Welcome to CS2-Modded-Server</h1>
+<p>CS2-Modded-Server is a concept idea for server admins to host a framework of many popular community-made plugins in one compact instance.<br/>
+<img alt="SEO Image" src="https://github.com/mavproductions/cs2-modded-server/blob/b86a34e2ce4fbf83aed8e032fde123b7b97a74b5/documentation/seo-metaphoto.jpg?raw=true&amp;sanitize=true"/></p>
+</article>
+</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": ".", "features": ["content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.expand", "navigation.tracking", "navigation.sections", "search.suggest", "search.highlight"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="assets/javascripts/bundle.ad660dcc.min.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script src="javascripts/tablesort.js"></script>
+</body>
+</html>
