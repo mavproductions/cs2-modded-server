@@ -26,7 +26,7 @@
     "Style": "center",
     "ListEnabled": true,
     "List": {
-    "10Mans" : "10-Mans",
+    "comp" : "10Mans",
 	  "AimMap" : "Aim Maps",
 	  "AWP" : "AWP Maps",
 	  "BHop" : "BHop",
