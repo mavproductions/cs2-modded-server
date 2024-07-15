@@ -85,6 +85,7 @@ Mod | Version | Developer | Why
 [CleanerCS2](https://github.com/Source2ZE/CleanerCS2) | `v1.0.3` | [Poggicek](https://github.com/Poggicek) | Allows you to filter out console prints with regular expressions 
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.1 SDK Rebuild 28/6/2024` | [Poggicek](https://github.com/Poggicek) | Fixes players not showing up in the server browser 
 [CSSharp-Fixes](https://github.com/CharlesBarone/CSSharp-Fixes) | `1.0.1` | [CharlesBarone](https://github.com/CharlesBarone/) | This plugin is intended to replace CS2Fixes for servers that run CS# since CS2Fixes often conflicts with CS# plugins.
+[CS2VoiceFix](https://github.com/Source2ZE/CS2VoiceFix) | `1.0.0` | [Poggicek](https://github.com/Poggicek) | Experimental plugin that attempts to fix voice chat breaking after addon unloads. (Disabled by Default - [see here activation steps](#CS2VoiceFix).)
 [AnnouncementBroadcaster](https://github.com/lengran/CS2AnnouncementBroadcaster) | `0.3.1` | [Lengrann](https://github.com/lengran) | Conditional messages, OnCommand, OnPlayerConnect, OnRoundStart, and TimerMsgs.
 [AntiRush](https://github.com/oscar-wos/AntiRush) | `1.0.1` | [oscar-wos](https://github.com/oscar-wos) | Customize your own boundaries on maps to teleport, warn, hurt, and kill players/bots trying to cross contraint areas.
 [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon) | `1.2.0` | [LordFetznschaedl](https://github.com/LordFetznschaedl/) | This is a rudimentary implementation of a RCON plugin using CounterStrikeSharp as RCON does not work whilst connected to the server
@@ -680,6 +681,10 @@ If you want to disable Broadcasts on your server, unload the plugin by putting t
 You can also leave it in the `/plugins/disabled` folder and in you can put it in your `/custom_files/cfg/custom_all.cfg` file.
 
 The config file is located at `/game/csgo/addons/counterstrikesharp/plugins/CS2AnnouncementBroadcaster/cfg/messages.json` which you would put in `/custom_files/addons/counterstrikesharp/plugins/CS2AnnouncementBroadcaster/cfg/messages.json` so it is not overwritten.
+
+### CS2VoiceFix
+
+If your server experiences voice chat issues when an addon is unloaded (e.g. map changes), you might want to try enabling CS2VoiceChat. This can be done by simply moving `/custom_files_example/addons/metamod/CS2VoiceFix.vdf` to `/custom_files/addons/metamod/CS2VoiceFix.vdf`.
 
 ### Using DiscordUtilities
 
